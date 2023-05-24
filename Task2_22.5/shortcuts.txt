@@ -1,0 +1,9 @@
+VSCode Shortcuts:-
+
+Comment Line(s): Ctrl + /
+Duplicate Line(s): Ctrl + Shift + D
+Delete Line(s): Ctrl + Shift + K 
+Find: Ctrl + F
+Replace: Ctrl + H
+Open Terminal: Ctrl + 
+
