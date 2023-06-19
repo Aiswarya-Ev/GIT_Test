@@ -1,0 +1,25 @@
+Inner Join:-
+
+We you have two tables, one containing customer information and another containing product sales. You can use an inner join to match the customer ID in both tables and retrieve data such as customer name, address, and the products they purchased.
+
+
+Left Join:-
+
+Suppose we have two tables, "Customers" and "Orders." The "Customers" table contains information about customers, including customer IDs and names, while the "Orders" table contains details about orders placed by customers, including the customer ID and the order ID. By performing a LEFT JOIN between these tables, you can retrieve a list of all customers and their corresponding orders, including customers who haven't placed any orders yet.
+
+
+Right Join:-
+
+Consider two tables, "Customer" and "Order", A right join could be used to retrieve all the orders, including those without corresponding customer information.
+
+Full join:-
+
+Consider two tables, "Customer" and "product", one containing customer information and another containing product information. Performing a full join on these tables will give you a comprehensive analysis of all customers and products, including any customers who have not made any purchases or any products that have not been sold yet.
+
+Cross join:-
+
+Suppose we have a table that contains a list of products and another table with a list of colors. To generate a catalog that shows all possible combinations of products and colors, you could perform a cross join between the two tables. This would result in a new table where each row represents a product-color combination.
+
+
+
+
