@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Library</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <a href="#"><img id="logo" src="images/logo.png" alt="Logo"></a>
+      <span id="site-name">Online Library</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <div class="book-list">
+      <div class="book">
+        <img src="images/book1.jpg" alt="Book 1">
+        <h3> THE COMPLETE NOVELS OF SHERLOCK HOLMES  </h3>
+        <div class="book-description">
+          <h3> THE COMPLETE NOVELS OF SHERLOCK HOLMES  </h3>
+          <p>"The Complete Novels of Sherlock Holmes" is a collection of four novels written by Sir Arthur Conan Doyle, featuring the iconic detective Sherlock Holmes and his loyal companion, Dr. John Watson. These captivating mysteries, including "A Study in Scarlet" and "The Hound of the Baskervilles," showcase Holmes' brilliant deduction skills and timeless appeal.</p>
+        </div>
+      </div>
+      <div class="book">
+        <img src="images/book2.jpg" alt="Book 2">
+        <h3>HARRY POTTER AND THE CHAMBER OF SECRETS </h3>
+        <div class="book-description">
+          <h3>HARRY POTTER AND THE CHAMBER OF SECRETS </h3>
+          <p>"Harry Potter and the Chamber of Secrets" is the second book in J.K. Rowling's popular fantasy series. It follows young wizard Harry Potter as he returns to Hogwarts School of Witchcraft and Wizardry to uncover the mysteries surrounding the hidden Chamber and its monstrous secrets.</p>
+        </div>
+      </div>
+      <div class="book">
+        <img src="images/book3.jpeg" alt="Book 3">
+        <h3>The Alchemist </h3>
+        <div class="book-description">
+          <h3>The Alchemist </h3>
+          <p>""The Alchemist" is a renowned novel by Paulo Coelho that follows the journey of a young shepherd named Santiago as he embarks on a quest to discover his personal legend. Through vivid storytelling and spiritual themes, the book explores the importance of pursuing one's dreams and finding meaning in life's journey.</p></div>
+      </div>
+      <div class="book">
+        <img src="images/book4.jpeg" alt="Book 4">
+        <h3>Death comes to call</h3>
+        <div class="book-description">
+          <h3>Death comes to call</h3>
+          <p>"Death comes to call" is the second book in J.K. Rowling's popular fantasy series. It follows young wizard Harry Potter as he returns to Hogwarts School of Witchcraft and Wizardry to uncover the mysteries surrounding the hidden Chamber and its monstrous secrets.</p>
+        </div>
+      </div>
+      <div class="book">
+        <img src="images/book5.jpeg" alt="Book 5">
+        <h3>The Silent Patient</h3>
+        <div class="book-description">
+          <h3>The Silent Patient </h3>
+          <p>"The Silent Patient" is a gripping psychological thriller written by Alex Michaelides. The story revolves around Alicia Berenson, a renowned artist who has been silent since she was found guilty of murdering her husband. The narrative unfolds as a psychotherapist attempts to unravel the truth behind Alicia's silence and delve into the depths of her troubled mind.</p></div>
+      </div>
+      <!-- Add more book entries as needed -->
+    </div>
+    
+    <div class="social-icons">
+      <a href="#"><img src="images/facebook.png" alt="Facebook" width="32" height="32"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram" width="32" height="32"></a>
+      <a href="#"><img src="images/mail.png" alt="Email" width="32" height="32"></a>
+    </div>
+  </main>
+  
+  <footer>
+    &copy; 2023 Online Library. All rights reserved.
+  </footer>
+</body>
+<script>
+  // JavaScript code for smooth scrolling to book descriptions
+  window.addEventListener('DOMContentLoaded', function() {
+    var books = document.querySelectorAll('.book');
+    books.forEach(function(book) {
+      book.addEventListener('click', function() {
+        this.querySelector('.book-description').classList.toggle('show');
+      });
+    });
+  });
+</script>
+</html>
